@@ -1,0 +1,33 @@
+:root {
+    --brat-green: #00aa00;
+    --yellow-details: #dbaf1c;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #1c1b1f;
+    color: #ffffff;
+
+    .container {
+        
+        width: 100vw;
+        height: 98vh;
+        display: flex;
+        flex-flow: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 80vh;
+        height: auto;
+        padding: 20px 60px;
+        border-radius: 12px;
+        background-color: #1d742b;
+        color: white;
+    }
+}

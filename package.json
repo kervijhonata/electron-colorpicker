@@ -1,0 +1,24 @@
+{
+  "name": "colorpicker-electron",
+  "version": "1.0.0",
+  "description": "Uma aplicação desktop cross-platform feita em electron.js para criação de paletas de cores",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "sass": "sass --watch ./public/views/scss:./public/views/css"
+  },
+  "keywords": [
+    "electron",
+    "electron.js",
+    "colors",
+    "colorpicker",
+    "desktop",
+    "cross-platform"
+  ],
+  "author": "void_Sc0rpio",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^32.0.1"
+  }
+}
